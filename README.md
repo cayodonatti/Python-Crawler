@@ -11,3 +11,5 @@ scrapy runspider cifras.py -o cifras.json
 
 inicio cifras: 18:45
 termino: 09:59
+
+python parser.py
