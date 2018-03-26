@@ -26,7 +26,7 @@ with codecs.open('../cifras_formatadas.json', 'r', 'utf-8') as f:
             index_b = cifra.index(b)
 
             if index_b > index_a and index_b - index_a <= intervalo:
-                index_b+=1;
+                index_b+=1
                 if cifra[index_a : index_b] not in matchs:
                     matchs.append(cifra[index_a : index_b])
         except Exception:
