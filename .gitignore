@@ -1,2 +1,4 @@
 *.pyc
-*.json
+/*.json
+mongodb_api/node_modules
+/mongodb_api/*.env
